@@ -1,0 +1,148 @@
+@media screen and (max-width:1100px) {
+   .teachers{
+      &__wrapper{
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+      }
+      &__cards{
+         justify-content: center;
+         gap: 30px;
+      }
+    
+   }
+   
+}
+@media screen and (max-width:990px) {
+   .format{
+      &__wrapper{
+         flex-direction: column-reverse;
+         align-items: center;
+         text-align: center;
+      }
+    
+   }
+   
+}
+
+@media screen and (max-width:810px) {
+   section{
+      padding: 90px 0 90px;
+   }
+   .stat{
+      padding-top: 60px ;
+   }
+   .header{
+      padding: 40px 0 90px;
+      &__img{
+         max-width: 240px;
+         img{
+            width: 100%;
+            object-fit: cover;
+            position: static;
+         }
+      }
+      &__svg{
+         display: none;
+      }
+     
+   }
+   .banner{
+      background-size: cover;
+      background-position: center;
+      &__wrapper{
+         justify-content: center;
+      }
+      &__descr{
+         text-align: center;
+      }
+   }
+   .footer{
+      .social{
+         margin-bottom: 30px;
+      }
+   }
+   
+}
+@media screen and (max-width:680px) {
+   .header{
+     &__img{
+         display: none;
+     }
+     &__top{
+      display: flex;
+      justify-content:  flex-end;
+      margin-bottom:60px ;
+      position: static;
+     }
+     .nav{
+      position: fixed;
+      top: 0;
+      left:  -100%;
+      width: 100%;
+      height: 100vh;
+      display: block !important;
+      background-color: $orange;
+      z-index: 10;
+      opacity: 0;
+      transition: all .3s ease;
+
+      .nav__list{
+         flex-direction: column;
+         text-align: center;
+         padding-top: 100px;
+         &__item{
+            margin-bottom: 10px;
+         }
+      }
+     }
+     .burger{
+         display: block;
+         position: fixed;
+         z-index: 11;
+     }
+     .social{
+      display: flex;
+      justify-content: space-around;
+      // width: 100%;
+      margin: 0 auto 30px;
+      order:4;
+      position: static;
+         &__link{
+            margin: 0 5px 0 0 ;  
+         }
+     }
+     &__wrapper{
+         padding-top: 30px;
+     }
+     &__btn{
+      margin-bottom: 60px;
+     }
+     .scroll-btn{
+         transform: none;
+         text-align: center;
+         position: static; 
+         order: 5;
+         animation: forScrollMobile .9s linear infinite alternate !important; 
+         .icon-arrow{
+            order:2;
+            transform: rotate(90deg);
+
+         }
+     }
+   }
+   .format{
+      &__img{
+         padding: 0;
+         
+         svg{
+            display: none;
+         }
+         img{
+            width: 100%;
+            position: relative;
+         }
+      }
+   }
+   
+}

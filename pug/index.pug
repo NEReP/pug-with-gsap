@@ -1,0 +1,295 @@
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      title Document
+      link(rel="preconnect" href="https://fonts.googleapis.com")
+      link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+      link(href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet")
+      link(rel='stylesheet' href='css/style.min.css') 
+   body  
+      header.header
+         .container
+            .header__top
+               .burger
+                  div.burger__line
+                  div.burger__line
+                  div.burger__line
+               nav.nav
+                  ul.nav__list 
+                     li.nav__item
+                        a.nav__link(href="#") О нас 
+                     li.nav__item   
+                        a.nav__link(href="#") Платформа
+                     li.nav__item   
+                        a.nav__link(href="#") Курсы   
+                     li.nav__item   
+                        a.nav__link(href="#") Лекции
+                     li.nav__item   
+                        a.nav__link(href="#") Тарифы
+                     li.nav__item   
+                        a.nav__link(href="#") Блог
+                     li.nav__item   
+                        a.nav__link(href="#") Контакты
+            .header__wrapper      
+               .social 
+                  .social__item
+                     a.social__link(href='#')
+                        <svg fill="#ffffff" width="22px" height="22px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                           <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                           <g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"/> </g>
+                        </svg>
+                  .social__item
+                     a.social__link(href='#')
+                        <svg fill="#ffffff" width="22px" height="22px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                           <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                           <g id="SVGRepo_iconCarrier"> <title>vk</title> <path d="M25.217 22.402h-2.179c-0.825 0-1.080-0.656-2.562-2.158-1.291-1.25-1.862-1.418-2.179-1.418-0.445 0-0.572 0.127-0.572 0.741v1.968c0 0.53-0.169 0.847-1.566 0.847-2.818-0.189-5.24-1.726-6.646-3.966l-0.021-0.035c-1.632-2.027-2.835-4.47-3.43-7.142l-0.022-0.117c0-0.317 0.127-0.614 0.741-0.614h2.179c0.55 0 0.762 0.254 0.975 0.846 1.078 3.112 2.878 5.842 3.619 5.842 0.275 0 0.402-0.127 0.402-0.825v-3.219c-0.085-1.482-0.868-1.608-0.868-2.137 0.009-0.283 0.241-0.509 0.525-0.509 0.009 0 0.017 0 0.026 0.001l-0.001-0h3.429c0.466 0 0.635 0.254 0.635 0.804v4.34c0 0.465 0.212 0.635 0.339 0.635 0.275 0 0.509-0.17 1.016-0.677 1.054-1.287 1.955-2.759 2.642-4.346l0.046-0.12c0.145-0.363 0.493-0.615 0.9-0.615 0.019 0 0.037 0.001 0.056 0.002l-0.003-0h2.179c0.656 0 0.805 0.337 0.656 0.804-0.874 1.925-1.856 3.579-2.994 5.111l0.052-0.074c-0.232 0.381-0.317 0.55 0 0.975 0.232 0.317 0.995 0.973 1.503 1.566 0.735 0.727 1.351 1.573 1.816 2.507l0.025 0.055c0.212 0.612-0.106 0.93-0.72 0.93zM20.604 1.004h-9.207c-8.403 0-10.392 1.989-10.392 10.392v9.207c0 8.403 1.989 10.392 10.392 10.392h9.207c8.403 0 10.392-1.989 10.392-10.392v-9.207c0-8.403-2.011-10.392-10.392-10.392z"/> </g>
+                        </svg>
+                  .social__item
+                     a.social__link(href='#')
+                        <svg width="22px" height="22px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                           <g id="SVGRepo_iconCarrier">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#ffffff"></path> 
+                              <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#ffffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> 
+                           </g>
+                        </svg>
+               .logo
+                  img(src='./img/header/logo.svg') 
+               .header__descr
+                  h1.title Образовательная онлайн-платформа
+                  p.subtext Курсы и видео-лекции по дизайну, копирайтингу,SMM, таргету и многим другим направлениям
+                  button(class='header__btn btn') Все направления
+               div(class='header__img header__img-top ') 
+                  <svg class='header__svg'   viewBox="0 0 240 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path class='border' d="M225 0H235V0.5H239.5V5H240V15H239.5V25H240V35H239.5V45H240V55H239.5V65H240V75H239.5V85H240V95H239.5V105H240V115H239.5V125H240V135H239.5V145H240V155H239.5V165H240V175H239.5V185H240V195H239.5V205H240V215H239.5V225H240V235H239.5V245H240V255H239.5V265H240V275H239.5V285H240V295H239.5V299.5H235V300H225V299.5H215V300H205V299.5H195V300H185V299.5H175V300H165V299.5H155V300H145V299.5H135V300H125V299.5H115V300H105V299.5H95V300H85V299.5H75V300H65V299.5H55V300H45V299.5H35V300H25V299.5H15V300H5V299.5H0.5V295H0V285H0.5V275H0V265H0.5V255H0V245H0.5V235H0V225H0.5V215H0V205H0.5V195H0V185H0.5V175H0V165H0.5V155H0V145H0.5V135H0V125H0.5V115H0V105H0.5V95H0V85H0.5V80C0.5 78.2512 0.556461 76.5156 0.667651 74.795L0.168692 74.7627C0.396529 71.2371 0.852755 67.7736 1.52272 64.387L2.01322 64.4841C2.69257 61.05 3.59308 57.6956 4.69928 54.4361L4.22581 54.2754C5.3545 50.9497 6.696 47.7222 8.23408 44.6092L8.68235 44.8307C10.2248 41.7088 11.9663 38.7026 13.8902 35.8289L13.4748 35.5507C15.4206 32.6442 17.5519 29.8723 19.8517 27.2519L20.2275 27.5818C22.5166 24.9737 24.9736 22.5166 27.5818 20.2275L27.2519 19.8518C29.8723 17.552 32.6442 15.4206 35.5507 13.4748L35.8289 13.8903C38.7026 11.9663 41.7088 10.2248 44.8307 8.68235L44.6092 8.23408C47.7222 6.696 50.9497 5.35451 54.2754 4.22581L54.4361 4.69929C57.6956 3.59308 61.05 2.69257 64.4841 2.01322L64.387 1.52272C67.7736 0.852754 71.2371 0.396529 74.7627 0.168691L74.795 0.66765C76.5156 0.556461 78.2512 0.5 80 0.5H85V0H95V0.5H105V0H115V0.5H125V0H135V0.5H145V0H155V0.5H165V0H175V0.5H185V0H195V0.5H205V0H215V0.5H225V0Z" stroke="#FDFDFD" stroke-linejoin="round" stroke-dasharray="10 10"/>
+                  </svg>
+                  img(src='./img/header/header-img-2.jpg')
+
+               div(class='header__img header__img-bottom ') 
+                  <svg class='header__svg'  viewBox="0 0 240 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path class='border' d="M0 15V5H0.5V0.5H5V0H15V0.5H25V0H35V0.5H45V0H55V0.5H65V0H75V0.5H85V0H95V0.5H105V0H115V0.5H125V0H135V0.5H145V0H155V0.5H160C161.749 0.5 163.484 0.556461 165.205 0.667651L165.237 0.168692C168.763 0.39653 172.226 0.852755 175.613 1.52273L175.516 2.01322C178.95 2.69257 182.304 3.59308 185.564 4.69928L185.725 4.22581C189.05 5.3545 192.278 6.696 195.391 8.23408L195.169 8.68235C198.291 10.2248 201.297 11.9663 204.171 13.8903L204.449 13.4748C207.356 15.4206 210.128 17.5519 212.748 19.8518L212.418 20.2275C215.026 22.5166 217.483 24.9736 219.772 27.5818L220.148 27.2519C222.448 29.8723 224.579 32.6442 226.525 35.5507L226.11 35.8289C228.034 38.7026 229.775 41.7088 231.318 44.8307L231.766 44.6092C233.304 47.7222 234.645 50.9497 235.774 54.2754L235.301 54.4361C236.407 57.6956 237.307 61.0501 237.987 64.4841L238.477 64.3871C239.147 67.7736 239.603 71.2371 239.831 74.7627L239.332 74.795C239.444 76.5156 239.5 78.2512 239.5 80V85H240V95H239.5V105H240V115H239.5V125H240V135H239.5V145H240V155H239.5V165H240V175H239.5V185H240V195H239.5V205H240V215H239.5V225H240V235H239.5V245H240V255H239.5V265H240V275H239.5V285H240V295H239.5V299.5H235V300H225V299.5H215V300H205V299.5H195V300H185V299.5H175V300H165V299.5H155V300H145V299.5H135V300H125V299.5H115V300H105V299.5H95V300H85V299.5H75V300H65V299.5H55V300H45V299.5H35V300H25V299.5H15V300H5V299.5H0.5V295H0V285H0.5V275H0V265H0.5V255H0V245H0.5V235H0V225H0.5V215H0V205H0.5V195H0V185H0.5V175H0V165H0.5V155H0V145H0.5V135H0V125H0.5V115H0V105H0.5V95H0V85H0.5V75H0V65H0.5V55H0V45H0.5V35H0V25H0.5V15H0Z" stroke="#FDFDFD" stroke-linejoin="round" stroke-dasharray="10 10"/>
+                  </svg>
+
+                  img(src='./img/header/header-img-1.jpg')
+               .scroll-btn  <div class='icon-arrow'></div> Листайте вниз
+            
+                  
+
+      .wrapper 
+         main.main
+            section.stat
+               .container 
+                  ul.stat__list 
+                     li.stat__item 
+                        h3.stat__quantity 100+
+                        div.stat__text теоретических и практических курсов для разного уровня
+                     li.stat__item 
+                        h3.stat__quantity 3 000
+                        div.stat__text часов видео-лекций и вебинаров от преподавателей
+                     li.stat__item 
+                        h3.stat__quantity 15
+                        div.stat__text направлений обучения востребованным профессиям
+                     li.stat__item 
+                        h3.stat__quantity 2 000
+                        div.stat__text учеников уже занимаются на нашей платформе
+                  
+            section.teachers 
+               .container
+                  .teachers__wrapper 
+                     .teachers__descr 
+                        h2(class='teachers__title title') Учитесь у лучших
+                        div(class="teachers__text text").
+                            Наши преподаватели – профессионалы, которые добились успеха в своей области. Лид-дизайнеры известных студий, маркетологи крупнейших компаний, редакторы популярных медиа: получайте опыт из первых рук, в любое время.
+                           <br>
+                           <br>
+                           Кураторы курсов – наши лучшие выпускники, будут помогать     и поддерживать вас на протяжении всего обучения. 
+                        button(class='teachers__btn btn')  Все преподаватели
+                     .teachers__cards 
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-1.png')
+                           .teacher-info Катя, ведущий дизайнер TailGroup
+
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-2.png')
+                           .teacher-info Марина, маркетолог Headers Market
+
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-3.png')
+                           .teacher-info Сава, PR-менеджер Central Media
+
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-4.png')
+                           .teacher-info Паша, основатель LeadCompany
+
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-5.png')
+                           .teacher-info Саша, главный редактор Just Journal
+
+                        .teachers__card
+                           .teachers__img
+                              img(src='./img/teachers/teacher-6.png')
+                           .teacher-info Лёня, ведущий разработчик Ymail
+            section.format
+               .container
+                  .format__wrapper 
+                     .format__img 
+                        img(src='./img/format/photo.png')
+                        <svg class='format__svg' height="332" viewBox="0 0 470 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path class='border' d="M0 14.6471V4.88235H0.5V0.5H4.86097V0H14.5832V0.5H24.3054V0H34.0276V0.5H43.7499V0H53.4721V0.5H63.1943V0H72.9166V0.5H82.6388V0H92.361V0.5H102.083V0H111.805V0.5H121.528V0H131.25V0.5H140.972V0H150.694V0.5H160.417V0H170.139V0.5H179.861V0H189.583V0.5H199.306V0H209.028V0.5H218.75V0H228.472V0.5H238.194V0H247.917V0.5H257.639V0H267.361V0.5H277.083V0H286.806V0.5H296.528V0H306.25V0.5H315.972V0H325.694V0.5H335.417V0H345.139V0.5H350C351.748 0.5 353.488 0.537545 355.218 0.611871L355.24 0.112332C358.759 0.263525 362.239 0.566291 365.673 1.01427L365.608 1.51007C369.08 1.96292 372.505 2.56477 375.876 3.30899L375.984 2.82075C379.412 3.57746 382.785 4.48075 386.096 5.52372L385.945 6.00061C389.277 7.04996 392.545 8.24129 395.743 9.56752L395.935 9.10565C399.171 10.4476 402.335 11.9271 405.421 13.5368L405.19 13.9801C408.28 15.5919 411.29 17.3347 414.214 19.2013L414.483 18.7799C417.43 20.6612 420.29 22.6678 423.054 24.7921L422.749 25.1885C425.508 27.3086 428.172 29.5463 430.733 31.8943L431.071 31.5258C433.644 33.8853 436.115 36.3556 438.474 38.9292L438.106 39.267C440.454 41.8281 442.691 44.4917 444.811 47.2506L445.208 46.9459C447.332 49.7102 449.339 52.5696 451.22 55.5167L450.799 55.7858C452.665 58.7097 454.408 61.7202 456.02 64.81L456.463 64.5788C458.073 67.6647 459.552 70.8294 460.894 74.0655L460.432 74.257C461.759 77.4551 462.95 80.7234 463.999 84.0545L464.476 83.9043C465.519 87.2152 466.423 90.5881 467.179 94.016L466.691 94.1238C467.435 97.4951 468.037 100.92 468.49 104.392L468.986 104.327C469.434 107.761 469.736 111.241 469.888 114.76L469.388 114.782C469.462 116.512 469.5 118.252 469.5 120V124.818H470V134.454H469.5V144.091H470V153.727H469.5V163.364H470V173H469.5V182.636H470V192.273H469.5V201.909H470V211.545H469.5V221.182H470V230.818H469.5V240.455H470V250.091H469.5V259.727H470V269.364H469.5V279H470V288.636H469.5V298.273H470V307.909H469.5V317.545H470V327.182H469.5V331.5H465.104V332H455.312V331.5H445.521V332H435.729V331.5H425.937V332H416.146V331.5H406.354V332H396.562V331.5H386.771V332H376.979V331.5H367.187V332H357.396V331.5H347.604V332H337.812V331.5H328.021V332H318.229V331.5H308.438V332H298.646V331.5H288.854V332H279.063V331.5H269.271V332H259.479V331.5H249.688V332H239.896V331.5H230.104V332H220.313V331.5H210.521V332H200.729V331.5H190.938V332H181.146V331.5H171.354V332H161.563V331.5H151.771V332H141.979V331.5H132.188V332H122.396V331.5H112.604V332H102.812V331.5H93.0208V332H83.2292V331.5H73.4375V332H63.6458V331.5H53.8542V332H44.0625V331.5H34.2708V332H24.4792V331.5H14.6875V332H4.89583V331.5H0.5V327.118H0V317.353H0.5V307.588H0V297.824H0.5V288.059H0V278.294H0.5V268.529H0V258.765H0.5V249H0V239.235H0.5V229.471H0V219.706H0.5V209.941H0V200.177H0.5V190.412H0V180.647H0.5V170.882H0V161.118H0.5V151.353H0V141.588H0.5V131.824H0V122.059H0.5V112.294H0V102.529H0.5V92.7647H0V83H0.5V73.2353H0V63.4706H0.5V53.7059H0V43.9412H0.5V34.1765H0V24.4118H0.5V14.6471H0Z" stroke="#FDFDFD" stroke-linejoin="round" stroke-dasharray="10 10"/>
+                        </svg>
+
+                     .format__descr
+                        h2(class = 'format__title title') Выбирайте свой формат обучения
+                        div(class ='format__text text').
+                           Смотрите видео-лекции в удобное для вас время, обучайтесь на тренажере, участвуйте в интенсивных воркшопах
+                           с командой или проходите курс с гибким расписанием.
+                           На нашей платформе каждый найдет подходящий формат.
+                        button(class ="format__btn btn") Все курсы
+            section.courses 
+               .container 
+                  h2(class= 'courses__title title') Популярные курсы
+                  .courses__wrapper 
+                     .courses__item 
+                        a(href="#") 
+                           .courses__img
+                              img(src='./img/courses/pic-3.png')
+                           .courses__name Motion design
+                           
+                     .courses__item 
+                        a(href="#") 
+                           .courses__img
+                              img(src='./img/courses/pic-1.png')
+                           .courses__name Таргет в Instagram
+                        
+                     .courses__item 
+                        a(href="#") 
+                           .courses__img
+                              img(src='./img/courses/pic-2.png')
+                           .courses__name Эффектные презентации
+                        
+                     .courses__item 
+                        a(href="#") 
+                           .courses__img
+                              img(src='./img/courses/pic.png')
+                           .courses__name SMM-стратегия
+                        
+                  button(class='courses__btn btn') Все курсы
+                           
+            section.banner 
+               .container 
+                  .banner__wrapper 
+                     .banner__descr    
+                        h2(class='banner__title title').
+                         Присоединяйтесь к E-Mentor сейчас
+
+                        .banner__text Выберите подходящий тариф и формат обучения, пройдите 2 урока и мы подарим вам дополнительные лекции по любому направлению бесплатно!
+                        button(class='banner__btn btn') Выбрать тариф
+
+
+                     
+
+
+
+
+         footer.footer 
+            .container 
+               .footer__wrapper 
+                  .footer__info 
+                     .logo
+                        img(src='./img/footer/logo.svg')
+                     .footer__text Образовательная онлайн-платформа для развития и тренировки навыков в сфере информационных технологий
+                             
+                     .social 
+                        .social__item
+                           a.social__link(href='#')
+                             <svg fill="#9e9e9e" width="22px" height="22px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#9e9e9e">
+
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                              <g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"/> </g>
+
+                           </svg>
+                        .social__item
+                           a.social__link(href='#')
+                              <svg width="22px" height="22px" viewBox="0 0 32.00 32.00" id="Camada_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#9e9e9e" stroke="#9e9e9e" stroke-width="0.00032">
+
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.512"/>
+
+                              <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#FFFFFF;} </style> <path d="M6,2h20c2.2,0,4,1.8,4,4v20c0,2.2-1.8,4-4,4H6c-2.2,0-4-1.8-4-4V6C2,3.8,3.8,2,6,2z"/> <g> <path class="st0" d="M21.3,9.7c-0.6,0-1.2,0.5-1.2,1.2c0,0.7,0.5,1.2,1.2,1.2c0.7,0,1.2-0.5,1.2-1.2C22.4,10.2,21.9,9.7,21.3,9.7z"/> <path class="st0" d="M16,11.2c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9C21,13.4,18.8,11.2,16,11.2z M16,19.3 c-1.7,0-3.2-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C19.2,17.9,17.8,19.3,16,19.3z"/> <path class="st0" d="M20,6h-8c-3.3,0-6,2.7-6,6v8c0,3.3,2.7,6,6,6h8c3.3,0,6-2.7,6-6v-8C26,8.7,23.3,6,20,6z M24.1,20 c0,2.3-1.9,4.1-4.1,4.1h-8c-2.3,0-4.1-1.9-4.1-4.1v-8c0-2.3,1.9-4.1,4.1-4.1h8c2.3,0,4.1,1.9,4.1,4.1V20z"/> </g> </g>
+
+                              </svg>
+                        .social__item
+                           a.social__link(href='#')
+                              <svg fill="#9e9e9e" width="22px" height="22px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#9e9e9e">
+
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                              <g id="SVGRepo_iconCarrier"> <title>vk</title> <path d="M25.217 22.402h-2.179c-0.825 0-1.080-0.656-2.562-2.158-1.291-1.25-1.862-1.418-2.179-1.418-0.445 0-0.572 0.127-0.572 0.741v1.968c0 0.53-0.169 0.847-1.566 0.847-2.818-0.189-5.24-1.726-6.646-3.966l-0.021-0.035c-1.632-2.027-2.835-4.47-3.43-7.142l-0.022-0.117c0-0.317 0.127-0.614 0.741-0.614h2.179c0.55 0 0.762 0.254 0.975 0.846 1.078 3.112 2.878 5.842 3.619 5.842 0.275 0 0.402-0.127 0.402-0.825v-3.219c-0.085-1.482-0.868-1.608-0.868-2.137 0.009-0.283 0.241-0.509 0.525-0.509 0.009 0 0.017 0 0.026 0.001l-0.001-0h3.429c0.466 0 0.635 0.254 0.635 0.804v4.34c0 0.465 0.212 0.635 0.339 0.635 0.275 0 0.509-0.17 1.016-0.677 1.054-1.287 1.955-2.759 2.642-4.346l0.046-0.12c0.145-0.363 0.493-0.615 0.9-0.615 0.019 0 0.037 0.001 0.056 0.002l-0.003-0h2.179c0.656 0 0.805 0.337 0.656 0.804-0.874 1.925-1.856 3.579-2.994 5.111l0.052-0.074c-0.232 0.381-0.317 0.55 0 0.975 0.232 0.317 0.995 0.973 1.503 1.566 0.735 0.727 1.351 1.573 1.816 2.507l0.025 0.055c0.212 0.612-0.106 0.93-0.72 0.93zM20.604 1.004h-9.207c-8.403 0-10.392 1.989-10.392 10.392v9.207c0 8.403 1.989 10.392 10.392 10.392h9.207c8.403 0 10.392-1.989 10.392-10.392v-9.207c0-8.403-2.011-10.392-10.392-10.392z"/> </g>
+
+                              </svg>
+                             
+
+                  .footer__links 
+                     
+                     ul.footer__list
+                        li(class='footer__name')  Обучение
+
+                        li.footer__item
+                           a.footer__link(href='#') Курсы
+                        li.footer__item
+                           a.footer__link(href='#') Вебинары
+                        li.footer__item
+                           a.footer__link(href='#') Тренажеры
+                        li.footer__item
+                           a.footer__link(href='#') Воркшопы
+                               
+                     ul.footer__list
+                        li(class='footer__name') О нас
+                        
+                        li.footer__item
+                           a.footer__link(href='#') О платформе
+                        li.footer__item
+                           a.footer__link(href='#') Преподаватели
+                        li.footer__item
+                           a.footer__link(href='#') Тарифы
+                        li.footer__item
+                           a.footer__link(href='#') Отзывы
+
+                     ul.footer__list
+                        li(class='footer__name') Контакты
+
+                        li.footer__item
+                           a.footer__link(href='#') Связаться с нами
+                        li.footer__item
+                           a.footer__link(href='#') Консультация
+                        li.footer__item
+                           a.footer__link(href='#') Реквизиты
+                        li.footer__item
+                           a.footer__link(href='#') Поддержка 
+
+                           
+                  .footer__questions 
+                     .footer__name Возникли вопросы?
+                     .footer__mail Напишите нам на почту <br> <a href='#'>education@ementor.info</a>
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js")
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js")   
+      script(src='./scripts/main.min.js')
+
+
+
+

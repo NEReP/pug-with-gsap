@@ -1,0 +1,31 @@
+
+.teachers{
+   &__wrapper{
+      display: flex;
+      align-items: center;
+      gap: 109px;
+   }
+   &__descr{
+      max-width: 497px;
+   }
+   &__text{
+      margin: 20px 0 50px 0;
+      line-height: 150%;
+   }
+   &__cards{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      justify-content: space-between;
+
+   }
+   &__card{
+      width: 170px;
+   }
+   &__btn{
+      background-color: $green;
+   }
+   &__img{
+      margin-bottom: 15px;
+   }
+}

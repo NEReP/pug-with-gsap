@@ -1,0 +1,66 @@
+.header{
+   .scroll-btn{
+      animation: forScroll .9s linear infinite alternate;
+   }
+   &__img{
+      img{
+         animation: forImg 1.5s linear infinite alternate-reverse;
+
+      }    
+   }
+   &__svg{
+      .border{
+         animation: forBorder 7s linear infinite alternate-reverse;
+      }
+   }
+}
+.format{
+   &_img{
+      img{
+         animation: forImg 1.5s linear infinite alternate-reverse;
+
+      }   
+   }
+   &__svg{
+      .border{
+         animation: forBorder 7s linear infinite alternate-reverse;
+      }
+   }
+}
+@keyframes forImg {
+   from{
+      transform: translateY(0);
+   }
+   to{
+      transform: translateY(5px);
+      
+   }
+   
+}
+@keyframes forBorder {
+   from{
+      stroke-dasharray: 10 10;
+
+   }
+   to{
+      stroke-dasharray: 15 15;
+   }
+   
+}
+@keyframes forScroll {
+   from{
+      transform: scale(-1,-1) rotate(90deg) translateX(0);
+   }
+   to{
+      transform: scale(-1,-1) rotate(90deg) translateX(10px);
+   }
+}
+
+@keyframes forScrollMobile {
+   from{
+      transform: translateY(0);
+   }
+   to{
+      transform:  translateY(10px);
+   }
+}

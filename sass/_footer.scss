@@ -1,0 +1,48 @@
+.footer{
+   padding: 150px 0 20px;
+   &__wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-wrap: wrap;
+      a{
+         color: $dark;
+      }
+   }
+   &__links{
+      display: flex;
+      gap: 100px;
+
+      
+   }
+
+   &__info{
+      max-width: 270px;
+      line-height: 130%;
+      .social{
+         display: flex;
+         gap: 25px;
+         margin-top: 47px;
+      }
+   }
+   .logo{
+      margin-bottom: 27px;
+   }
+   &__item{
+      margin-bottom: 20px;
+      font-size: 16px;
+      
+   }
+   &__name{
+      font-size: 16px;
+      margin-bottom: 30px;
+      font-weight: 500;
+   }
+   &__mail{
+      line-height: 130%;
+      a{
+         text-decoration:underline;
+      }
+   }
+   
+}

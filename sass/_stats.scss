@@ -1,0 +1,27 @@
+.stat{
+   padding: 120px 0 0 0 ;
+   &__list{
+      display: flex;
+      gap:30px;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   &__item{
+      text-align: center;
+
+      max-width: 270px;
+   }
+   &__quantity{
+      color: $green;
+      font-size: 58px;
+      font-weight: 500;
+      font-variant-numeric: lining-nums proportional-nums;
+   }
+   &__text{
+      color: #353a5a;
+      line-height: 120%;
+      margin-top: 15px;
+   }
+}

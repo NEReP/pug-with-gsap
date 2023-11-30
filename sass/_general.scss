@@ -1,0 +1,49 @@
+body{
+   font-family: 'Raleway', sans-serif;
+   color: #353a5a;
+   scroll-behavior:auto;
+
+}
+.no-scroll{
+   overflow: hidden;
+   
+}
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+}
+.main{
+   flex: 1 0 auto;
+}
+.footer{
+   flex: 1 0 auto;
+}
+
+.container{
+   max-width: 1210px;
+   padding: 0 20px;
+   margin: 0 auto;
+   position: relative;
+}
+.btn{
+   width: 230px;
+   height: 56px;
+   border-radius: 0px 20px;
+   color: #FDFDFD;
+   font-weight: 500;
+}
+.text{
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%;
+}
+.title{
+   font-size:clamp(2.375rem, 1.881rem + 2.47vw, 3.75rem);
+   font-weight: 500;
+   line-height: 120%; /* 69.6px */
+}
+section{
+   padding: 120px 0 120px;
+}

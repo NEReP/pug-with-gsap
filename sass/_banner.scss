@@ -1,0 +1,27 @@
+
+.banner{
+   min-height: 578px;
+   background-image: url('../img/banner/bannerbg.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   &__wrapper{
+      display: flex;
+      justify-content: flex-end;
+   }
+   &__title{
+      color: $dark;
+   }
+   &__descr{
+      max-width: 510px;
+      font-size: 16px;
+   }
+   &__text{
+      margin: 20px 0 70px;
+      line-height: 150%;
+
+   }
+   &__btn{
+      background-color: $orange;
+   }
+
+}
